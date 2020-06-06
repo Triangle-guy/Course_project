@@ -1,7 +1,7 @@
 [
 {
   "directory": "C:/Users/Пользователь/Desktop/Course_project/build",
-  "command": "c:\\PROGRA~1\\gcc\\bin\\G__~1.EXE   -I../SDL2_INCLUDE_DIR  -g   -std=gnu++17 -o CMakeFiles\\Game.dir\\Main.cpp.obj -c C:\\Users\\Пользователь\\Desktop\\Course_project\\Main.cpp",
+  "command": "c:\\PROGRA~1\\gcc\\bin\\X86_64~2.EXE   -I../SDL2_INCLUDE_DIR -isystem D:/vcpkg/installed/x64-windows/include -isystem D:/vcpkg/installed/x64-windows/include/SDL2  -g   -std=gnu++17 -o CMakeFiles\\Game.dir\\Main.cpp.obj -c C:\\Users\\Пользователь\\Desktop\\Course_project\\Main.cpp",
   "file": "C:/Users/Пользователь/Desktop/Course_project/Main.cpp"
 }
 ]

@@ -1,0 +1,3 @@
+C:/Users/Пользователь/Desktop/Course_project/build/CMakeFiles/Game.dir
+C:/Users/Пользователь/Desktop/Course_project/build/CMakeFiles/edit_cache.dir
+C:/Users/Пользователь/Desktop/Course_project/build/CMakeFiles/rebuild_cache.dir
