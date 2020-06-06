@@ -1,0 +1,12 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "name": "Game.exe",
+      "project": "CMakeLists.txt",
+      "projectTarget": "Game.exe",
+      "type": "default"
+    }
+  ]
+}
