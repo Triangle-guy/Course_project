@@ -14,9 +14,6 @@
 # EXTERNAL cache entries
 ########################
 
-//Option for enabling testing
-BUILD_TESTING:BOOL=ON
-
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=C:/Program Files/gcc/bin/addr2line.exe
 
@@ -115,7 +112,7 @@ CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/Game
 CMAKE_LINKER:FILEPATH=C:/Program Files/gcc/bin/ld.exe
 
 //Program used to build from build.ninja files.
-CMAKE_MAKE_PROGRAM:FILEPATH=C:/Users/Пользователь/AppData/Local/Microsoft/WindowsApps/ninja.exe
+CMAKE_MAKE_PROGRAM:FILEPATH=C:/Program Files/CMake/bin/ninja.exe
 
 //Flags used by the linker during the creation of modules during
 // all build types.
@@ -240,40 +237,6 @@ Game_BINARY_DIR:STATIC=C:/Users/Пользователь/Desktop/Course_project/
 
 //Value Computed by CMake
 Game_SOURCE_DIR:STATIC=C:/Users/Пользователь/Desktop/Course_project
-
-//The directory containing a CMake configuration file for SDL2.
-SDL2_DIR:PATH=SDL2_DIR-NOTFOUND
-
-//Option for allowing apple clang, even versions that we don't
-// know will work
-VCPKG_ALLOW_APPLE_CLANG:BOOL=OFF
-
-//Option for enabling benchmarking
-VCPKG_BUILD_BENCHMARKING:BOOL=OFF
-
-//Option for enabling vcpkg-fuzz support
-VCPKG_BUILD_FUZZING:BOOL=OFF
-
-//Option for turning on all warnings
-VCPKG_DEVELOPMENT_WARNINGS:BOOL=ON
-
-//Option for disabling metrics
-VCPKG_DISABLE_METRICS:BOOL=OFF
-
-//Set warnings to be errors
-VCPKG_WARNINGS_AS_ERRORS:BOOL=ON
-
-//Value Computed by CMake
-test_BINARY_DIR:STATIC=C:/Users/Пользователь/Desktop/Course_project/build
-
-//Value Computed by CMake
-test_SOURCE_DIR:STATIC=C:/Users/Пользователь/Desktop/Course_project
-
-//Value Computed by CMake
-vcpkg_BINARY_DIR:STATIC=C:/Users/Пользователь/Desktop/Course_project/build
-
-//Value Computed by CMake
-vcpkg_SOURCE_DIR:STATIC=C:/Users/Пользователь/Desktop/Course_project
 
 
 ########################

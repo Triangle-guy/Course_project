@@ -28,15 +28,15 @@ The CXX compiler identification is GNU, found in "C:/Users/Пользовате�
 Determining if the C compiler works passed with the following output:
 Change Dir: C:/Users/Пользователь/Desktop/Course_project/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Users/Пользователь/AppData/Local/Microsoft/WindowsApps/ninja.exe cmTC_b1742 && [1/2] Building C object CMakeFiles/cmTC_b1742.dir/testCCompiler.c.obj
-[2/2] Linking C executable cmTC_b1742.exe
+Run Build Command(s):C:/Users/Пользователь/AppData/Local/Microsoft/WindowsApps/ninja.exe cmTC_56acf && [1/2] Building C object CMakeFiles/cmTC_56acf.dir/testCCompiler.c.obj
+[2/2] Linking C executable cmTC_56acf.exe
 
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: C:/Users/Пользователь/Desktop/Course_project/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Users/Пользователь/AppData/Local/Microsoft/WindowsApps/ninja.exe cmTC_32641 && [1/2] Building C object CMakeFiles/cmTC_32641.dir/CMakeCCompilerABI.c.obj
+Run Build Command(s):C:/Users/Пользователь/AppData/Local/Microsoft/WindowsApps/ninja.exe cmTC_6cc7e && [1/2] Building C object CMakeFiles/cmTC_6cc7e.dir/CMakeCCompilerABI.c.obj
 Built by Equation Solution <http://www.Equation.com>.
 Using built-in specs.
 COLLECT_GCC=c:\PROGRA~1\gcc\bin\X8EAA8~1.EXE
@@ -45,8 +45,8 @@ Configured with: ../gcc-10.1.0-mingw/configure --host=x86_64-w64-mingw32 --build
 Thread model: win32
 Supported LTO compression algorithms: zlib
 gcc version 10.1.0 (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_32641.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
- c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/cc1.exe -quiet -v -iprefix c:\progra~1\gcc\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/ -U_REENTRANT C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_32641.dir/CMakeCCompilerABI.c.obj -version -o C:\Users\73B5~1\AppData\Local\Temp\ccusSNgT.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6cc7e.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/cc1.exe -quiet -v -iprefix c:\progra~1\gcc\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/ -U_REENTRANT C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_6cc7e.dir/CMakeCCompilerABI.c.obj -version -o C:\Users\73B5~1\AppData\Local\Temp\ccp79v2B.s
 GNU C17 (GCC) version 10.1.0 (x86_64-w64-mingw32)
 	compiled by GNU C version 9.0.1 20190310 (experimental), GMP version 6.1.2, MPFR version 3.1.4, MPC version 1.0.3, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -65,13 +65,13 @@ GNU C17 (GCC) version 10.1.0 (x86_64-w64-mingw32)
 	compiled by GNU C version 9.0.1 20190310 (experimental), GMP version 6.1.2, MPFR version 3.1.4, MPC version 1.0.3, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: b0705db064ee82d1c285410be6548979
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_32641.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
- c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_32641.dir/CMakeCCompilerABI.c.obj C:\Users\73B5~1\AppData\Local\Temp\ccusSNgT.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6cc7e.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_6cc7e.dir/CMakeCCompilerABI.c.obj C:\Users\73B5~1\AppData\Local\Temp\ccp79v2B.s
 GNU assembler version 2.27 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.27
 COMPILER_PATH=c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/;c:/progra~1/gcc/bin/../libexec/gcc/;c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/bin/
 LIBRARY_PATH=c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/;c:/progra~1/gcc/bin/../lib/gcc/;c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../lib/;c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib/;c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_32641.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
-[2/2] Linking C executable cmTC_32641.exe
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6cc7e.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+[2/2] Linking C executable cmTC_6cc7e.exe
 Built by Equation Solution <http://www.Equation.com>.
 Using built-in specs.
 COLLECT_GCC=c:\PROGRA~1\gcc\bin\X8EAA8~1.EXE
@@ -83,9 +83,9 @@ Supported LTO compression algorithms: zlib
 gcc version 10.1.0 (GCC) 
 COMPILER_PATH=c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/;c:/progra~1/gcc/bin/../libexec/gcc/;c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/bin/
 LIBRARY_PATH=c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/;c:/progra~1/gcc/bin/../lib/gcc/;c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../lib/;c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib/;c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_32641.exe' '-mtune=generic' '-march=x86-64'
- c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/collect2.exe -plugin c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/liblto_plugin-0.dll -plugin-opt=c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\73B5~1\AppData\Local\Temp\ccSkYW60.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/9-20190310 -m i386pep -Bdynamic -o cmTC_32641.exe c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/crtbegin.o -Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0 -Lc:/progra~1/gcc/bin/../lib/gcc -Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../lib -Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib -Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../.. CMakeFiles/cmTC_32641.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_32641.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_32641.exe' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6cc7e.exe' '-mtune=generic' '-march=x86-64'
+ c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/collect2.exe -plugin c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/liblto_plugin-0.dll -plugin-opt=c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\73B5~1\AppData\Local\Temp\ccb2vNyI.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/9-20190310 -m i386pep -Bdynamic -o cmTC_6cc7e.exe c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/crtbegin.o -Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0 -Lc:/progra~1/gcc/bin/../lib/gcc -Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../lib -Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib -Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../.. CMakeFiles/cmTC_6cc7e.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_6cc7e.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6cc7e.exe' '-mtune=generic' '-march=x86-64'
 
 
 
@@ -106,7 +106,7 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: C:/Users/Пользователь/Desktop/Course_project/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):C:/Users/Пользователь/AppData/Local/Microsoft/WindowsApps/ninja.exe cmTC_32641 && [1/2] Building C object CMakeFiles/cmTC_32641.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [Run Build Command(s):C:/Users/Пользователь/AppData/Local/Microsoft/WindowsApps/ninja.exe cmTC_6cc7e && [1/2] Building C object CMakeFiles/cmTC_6cc7e.dir/CMakeCCompilerABI.c.obj]
   ignore line: [Built by Equation Solution <http://www.Equation.com>.]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=c:\PROGRA~1\gcc\bin\X8EAA8~1.EXE]
@@ -115,8 +115,8 @@ Parsed C implicit link information from above output:
   ignore line: [Thread model: win32]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 10.1.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_32641.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [ c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/cc1.exe -quiet -v -iprefix c:\progra~1\gcc\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/ -U_REENTRANT C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_32641.dir/CMakeCCompilerABI.c.obj -version -o C:\Users\73B5~1\AppData\Local\Temp\ccusSNgT.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6cc7e.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/cc1.exe -quiet -v -iprefix c:\progra~1\gcc\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/ -U_REENTRANT C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_6cc7e.dir/CMakeCCompilerABI.c.obj -version -o C:\Users\73B5~1\AppData\Local\Temp\ccp79v2B.s]
   ignore line: [GNU C17 (GCC) version 10.1.0 (x86_64-w64-mingw32)]
   ignore line: [	compiled by GNU C version 9.0.1 20190310 (experimental)  GMP version 6.1.2  MPFR version 3.1.4  MPC version 1.0.3  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -135,8 +135,8 @@ Parsed C implicit link information from above output:
   ignore line: [	compiled by GNU C version 9.0.1 20190310 (experimental)  GMP version 6.1.2  MPFR version 3.1.4  MPC version 1.0.3  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: b0705db064ee82d1c285410be6548979]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_32641.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [ c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_32641.dir/CMakeCCompilerABI.c.obj C:\Users\73B5~1\AppData\Local\Temp\ccusSNgT.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6cc7e.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_6cc7e.dir/CMakeCCompilerABI.c.obj C:\Users\73B5~1\AppData\Local\Temp\ccp79v2B.s]
   ignore line: [GNU assembler version 2.27 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.27]
   ignore line: [COMPILER_PATH=c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/]
   ignore line: [c:/progra~1/gcc/bin/../libexec/gcc/]
@@ -147,8 +147,8 @@ Parsed C implicit link information from above output:
   ignore line: [c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../lib/]
   ignore line: [c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib/]
   ignore line: [c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_32641.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [[2/2] Linking C executable cmTC_32641.exe]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6cc7e.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [[2/2] Linking C executable cmTC_6cc7e.exe]
   ignore line: [Built by Equation Solution <http://www.Equation.com>.]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=c:\PROGRA~1\gcc\bin\X8EAA8~1.EXE]
@@ -167,13 +167,13 @@ Parsed C implicit link information from above output:
   ignore line: [c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../lib/]
   ignore line: [c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib/]
   ignore line: [c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_32641.exe' '-mtune=generic' '-march=x86-64']
-  link line: [ c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/collect2.exe -plugin c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/liblto_plugin-0.dll -plugin-opt=c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\73B5~1\AppData\Local\Temp\ccSkYW60.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/9-20190310 -m i386pep -Bdynamic -o cmTC_32641.exe c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/crtbegin.o -Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0 -Lc:/progra~1/gcc/bin/../lib/gcc -Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../lib -Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib -Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../.. CMakeFiles/cmTC_32641.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_32641.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6cc7e.exe' '-mtune=generic' '-march=x86-64']
+  link line: [ c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/collect2.exe -plugin c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/liblto_plugin-0.dll -plugin-opt=c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\73B5~1\AppData\Local\Temp\ccb2vNyI.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/9-20190310 -m i386pep -Bdynamic -o cmTC_6cc7e.exe c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/crtbegin.o -Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0 -Lc:/progra~1/gcc/bin/../lib/gcc -Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../lib -Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib -Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../.. CMakeFiles/cmTC_6cc7e.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_6cc7e.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/crtend.o]
     arg [c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/liblto_plugin-0.dll] ==> ignore
     arg [-plugin-opt=c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=C:\Users\73B5~1\AppData\Local\Temp\ccSkYW60.res] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\73B5~1\AppData\Local\Temp\ccb2vNyI.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
@@ -193,7 +193,7 @@ Parsed C implicit link information from above output:
     arg [i386pep] ==> ignore
     arg [-Bdynamic] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_32641.exe] ==> ignore
+    arg [cmTC_6cc7e.exe] ==> ignore
     arg [c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> ignore
     arg [c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/crtbegin.o] ==> ignore
     arg [-Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0] ==> dir [c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0]
@@ -202,9 +202,9 @@ Parsed C implicit link information from above output:
     arg [-Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../lib] ==> dir [c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../lib]
     arg [-Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib]
     arg [-Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../..] ==> dir [c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../..]
-    arg [CMakeFiles/cmTC_32641.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [CMakeFiles/cmTC_6cc7e.dir/CMakeCCompilerABI.c.obj] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_32641.dll.a] ==> ignore
+    arg [libcmTC_6cc7e.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -240,15 +240,15 @@ Parsed C implicit link information from above output:
 Determining if the CXX compiler works passed with the following output:
 Change Dir: C:/Users/Пользователь/Desktop/Course_project/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Users/Пользователь/AppData/Local/Microsoft/WindowsApps/ninja.exe cmTC_02d75 && [1/2] Building CXX object CMakeFiles/cmTC_02d75.dir/testCXXCompiler.cxx.obj
-[2/2] Linking CXX executable cmTC_02d75.exe
+Run Build Command(s):C:/Users/Пользователь/AppData/Local/Microsoft/WindowsApps/ninja.exe cmTC_3e026 && [1/2] Building CXX object CMakeFiles/cmTC_3e026.dir/testCXXCompiler.cxx.obj
+[2/2] Linking CXX executable cmTC_3e026.exe
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: C:/Users/Пользователь/Desktop/Course_project/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Users/Пользователь/AppData/Local/Microsoft/WindowsApps/ninja.exe cmTC_d6525 && [1/2] Building CXX object CMakeFiles/cmTC_d6525.dir/CMakeCXXCompilerABI.cpp.obj
+Run Build Command(s):C:/Users/Пользователь/AppData/Local/Microsoft/WindowsApps/ninja.exe cmTC_cc3f5 && [1/2] Building CXX object CMakeFiles/cmTC_cc3f5.dir/CMakeCXXCompilerABI.cpp.obj
 Built by Equation Solution <http://www.Equation.com>.
 Using built-in specs.
 COLLECT_GCC=c:\PROGRA~1\gcc\bin\X86_64~2.EXE
@@ -257,8 +257,8 @@ Configured with: ../gcc-10.1.0-mingw/configure --host=x86_64-w64-mingw32 --build
 Thread model: win32
 Supported LTO compression algorithms: zlib
 gcc version 10.1.0 (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d6525.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64'
- c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/cc1plus.exe -quiet -v -iprefix c:\progra~1\gcc\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/ -U_REENTRANT C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_d6525.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\73B5~1\AppData\Local\Temp\ccskb63k.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cc3f5.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64'
+ c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/cc1plus.exe -quiet -v -iprefix c:\progra~1\gcc\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/ -U_REENTRANT C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_cc3f5.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\73B5~1\AppData\Local\Temp\ccSHMGoq.s
 GNU C++14 (GCC) version 10.1.0 (x86_64-w64-mingw32)
 	compiled by GNU C version 9.0.1 20190310 (experimental), GMP version 6.1.2, MPFR version 3.1.4, MPC version 1.0.3, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -283,13 +283,13 @@ GNU C++14 (GCC) version 10.1.0 (x86_64-w64-mingw32)
 	compiled by GNU C version 9.0.1 20190310 (experimental), GMP version 6.1.2, MPFR version 3.1.4, MPC version 1.0.3, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: abb84db2584d759dacfd9226afea1999
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d6525.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64'
- c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_d6525.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\73B5~1\AppData\Local\Temp\ccskb63k.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cc3f5.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64'
+ c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_cc3f5.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\73B5~1\AppData\Local\Temp\ccSHMGoq.s
 GNU assembler version 2.27 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.27
 COMPILER_PATH=c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/;c:/progra~1/gcc/bin/../libexec/gcc/;c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/bin/
 LIBRARY_PATH=c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/;c:/progra~1/gcc/bin/../lib/gcc/;c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../lib/;c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib/;c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d6525.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64'
-[2/2] Linking CXX executable cmTC_d6525.exe
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cc3f5.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64'
+[2/2] Linking CXX executable cmTC_cc3f5.exe
 Built by Equation Solution <http://www.Equation.com>.
 Using built-in specs.
 COLLECT_GCC=c:\PROGRA~1\gcc\bin\X86_64~2.EXE
@@ -301,9 +301,9 @@ Supported LTO compression algorithms: zlib
 gcc version 10.1.0 (GCC) 
 COMPILER_PATH=c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/;c:/progra~1/gcc/bin/../libexec/gcc/;c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/bin/
 LIBRARY_PATH=c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/;c:/progra~1/gcc/bin/../lib/gcc/;c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../lib/;c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib/;c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d6525.exe' '-mtune=generic' '-march=x86-64'
- c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/collect2.exe -plugin c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/liblto_plugin-0.dll -plugin-opt=c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\73B5~1\AppData\Local\Temp\cc0TEWap.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/9-20190310 -m i386pep -Bdynamic -o cmTC_d6525.exe c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/crtbegin.o -Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0 -Lc:/progra~1/gcc/bin/../lib/gcc -Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../lib -Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib -Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../.. CMakeFiles/cmTC_d6525.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_d6525.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d6525.exe' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cc3f5.exe' '-mtune=generic' '-march=x86-64'
+ c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/collect2.exe -plugin c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/liblto_plugin-0.dll -plugin-opt=c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\73B5~1\AppData\Local\Temp\ccsao1Gt.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/9-20190310 -m i386pep -Bdynamic -o cmTC_cc3f5.exe c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/crtbegin.o -Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0 -Lc:/progra~1/gcc/bin/../lib/gcc -Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../lib -Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib -Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../.. CMakeFiles/cmTC_cc3f5.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_cc3f5.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cc3f5.exe' '-mtune=generic' '-march=x86-64'
 
 
 
@@ -330,7 +330,7 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: C:/Users/Пользователь/Desktop/Course_project/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):C:/Users/Пользователь/AppData/Local/Microsoft/WindowsApps/ninja.exe cmTC_d6525 && [1/2] Building CXX object CMakeFiles/cmTC_d6525.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [Run Build Command(s):C:/Users/Пользователь/AppData/Local/Microsoft/WindowsApps/ninja.exe cmTC_cc3f5 && [1/2] Building CXX object CMakeFiles/cmTC_cc3f5.dir/CMakeCXXCompilerABI.cpp.obj]
   ignore line: [Built by Equation Solution <http://www.Equation.com>.]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=c:\PROGRA~1\gcc\bin\X86_64~2.EXE]
@@ -339,8 +339,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: win32]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 10.1.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d6525.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [ c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/cc1plus.exe -quiet -v -iprefix c:\progra~1\gcc\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/ -U_REENTRANT C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_d6525.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\73B5~1\AppData\Local\Temp\ccskb63k.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cc3f5.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/cc1plus.exe -quiet -v -iprefix c:\progra~1\gcc\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/ -U_REENTRANT C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_cc3f5.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\73B5~1\AppData\Local\Temp\ccSHMGoq.s]
   ignore line: [GNU C++14 (GCC) version 10.1.0 (x86_64-w64-mingw32)]
   ignore line: [	compiled by GNU C version 9.0.1 20190310 (experimental)  GMP version 6.1.2  MPFR version 3.1.4  MPC version 1.0.3  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -365,8 +365,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [	compiled by GNU C version 9.0.1 20190310 (experimental)  GMP version 6.1.2  MPFR version 3.1.4  MPC version 1.0.3  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: abb84db2584d759dacfd9226afea1999]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d6525.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [ c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_d6525.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\73B5~1\AppData\Local\Temp\ccskb63k.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cc3f5.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_cc3f5.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\73B5~1\AppData\Local\Temp\ccSHMGoq.s]
   ignore line: [GNU assembler version 2.27 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.27]
   ignore line: [COMPILER_PATH=c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/]
   ignore line: [c:/progra~1/gcc/bin/../libexec/gcc/]
@@ -377,8 +377,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../lib/]
   ignore line: [c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib/]
   ignore line: [c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d6525.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [[2/2] Linking CXX executable cmTC_d6525.exe]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cc3f5.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [[2/2] Linking CXX executable cmTC_cc3f5.exe]
   ignore line: [Built by Equation Solution <http://www.Equation.com>.]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=c:\PROGRA~1\gcc\bin\X86_64~2.EXE]
@@ -397,13 +397,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../lib/]
   ignore line: [c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib/]
   ignore line: [c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d6525.exe' '-mtune=generic' '-march=x86-64']
-  link line: [ c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/collect2.exe -plugin c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/liblto_plugin-0.dll -plugin-opt=c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\73B5~1\AppData\Local\Temp\cc0TEWap.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/9-20190310 -m i386pep -Bdynamic -o cmTC_d6525.exe c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/crtbegin.o -Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0 -Lc:/progra~1/gcc/bin/../lib/gcc -Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../lib -Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib -Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../.. CMakeFiles/cmTC_d6525.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_d6525.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cc3f5.exe' '-mtune=generic' '-march=x86-64']
+  link line: [ c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/collect2.exe -plugin c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/liblto_plugin-0.dll -plugin-opt=c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\73B5~1\AppData\Local\Temp\ccsao1Gt.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/9-20190310 -m i386pep -Bdynamic -o cmTC_cc3f5.exe c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/crtbegin.o -Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0 -Lc:/progra~1/gcc/bin/../lib/gcc -Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../lib -Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib -Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../.. CMakeFiles/cmTC_cc3f5.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_cc3f5.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/crtend.o]
     arg [c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/liblto_plugin-0.dll] ==> ignore
     arg [-plugin-opt=c:/progra~1/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/10.1.0/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=C:\Users\73B5~1\AppData\Local\Temp\cc0TEWap.res] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\73B5~1\AppData\Local\Temp\ccsao1Gt.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
@@ -423,7 +423,7 @@ Parsed CXX implicit link information from above output:
     arg [i386pep] ==> ignore
     arg [-Bdynamic] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_d6525.exe] ==> ignore
+    arg [cmTC_cc3f5.exe] ==> ignore
     arg [c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> ignore
     arg [c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/crtbegin.o] ==> ignore
     arg [-Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0] ==> dir [c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0]
@@ -432,9 +432,9 @@ Parsed CXX implicit link information from above output:
     arg [-Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../lib] ==> dir [c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../lib]
     arg [-Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib]
     arg [-Lc:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../..] ==> dir [c:/progra~1/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../..]
-    arg [CMakeFiles/cmTC_d6525.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [CMakeFiles/cmTC_cc3f5.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_d6525.dll.a] ==> ignore
+    arg [libcmTC_cc3f5.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore

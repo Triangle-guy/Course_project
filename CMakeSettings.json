@@ -13,9 +13,11 @@
       "variables": [
         {
           "name": "CMAKE_TOOLCHAIN_FILE",
-          "value": "D:/vcpkg/scripts/buildsystems/vcpkg.cmake"
+          "value": "D:/vcpkg/scripts/buildsystems/vcpkg.cmake",
+          "type": "STRING"
         }
-      ]
+      ],
+      "cmakeExecutable": "C:/Program Files/CMake/bin/cmake.exe"
     }
   ]
 }
