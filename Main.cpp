@@ -1,46 +1,118 @@
-#include <SDL2/SDL.h>
-#include <iostream>
-using namespace std;
+#include "Main.h"
+#include <vector>
+//#include "GameLoop.h"
 
-int main() {
-    if (SDL_Init(SDL_INIT_EVERYTHING) != 0){
-        std::cout << "SDL_Init Error: " << SDL_GetError() << std::endl;
-        return 1;
-    }
-    SDL_Window *win = SDL_CreateWindow("Hello World!", 100, 100, 640, 480, SDL_WINDOW_SHOWN);
+#define SPLIT_COLOUR(rgb) rgb / 0x10000, (rgb / 0x100) % 0x100, rgb % 0x100
 
-    if (win == nullptr){
-        std::cout << "SDL_CreateWindow Error: " << SDL_GetError() << std::endl;
-        return 1;
-    }
+typedef int Colour;
+extern RendererPtr renderer = nullptr;
 
-    SDL_Renderer *ren = SDL_CreateRenderer(win, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);
-    if (ren == nullptr){
-        std::cout << "SDL_CreateRenderer Error: " << SDL_GetError() << std::endl;
-        return 1;
-    }
+extern WindowPtr window = nullptr;
 
-    SDL_Surface *bmp = SDL_LoadBMP("../hello.bmp");
-    if (bmp == nullptr){
-        std::cout << "SDL_LoadBMP Error: " << SDL_GetError() << std::endl;
-        return 1;
-    }
+extern ScreenSurfacePtr screenSurface = nullptr;
 
-    SDL_Texture *tex = SDL_CreateTextureFromSurface(ren, bmp);
-    SDL_FreeSurface(bmp);
-    if (tex == nullptr){
-        std::cout << "SDL_CreateTextureFromSurface Error: " << SDL_GetError() << std::endl;
-        return 1;
-    }
+SDL_FRect rectangle;
 
-    SDL_RenderClear(ren);
-    SDL_RenderCopy(ren, tex, NULL, NULL);
-    SDL_RenderPresent(ren);
 
-    SDL_Delay(2000);
-    
-    SDL_DestroyTexture(tex);
-    SDL_DestroyRenderer(ren);
-    SDL_DestroyWindow(win);
-    SDL_Quit();
+/* EventHandler.cpp */
+namespace EventHandler
+{
+	std::vector<SDL_Event> events;
+	std::vector<SDL_Event>::iterator eventVectorIterator;
+	SDL_Event eventTemp;
+
+	void InitEvents()
+	{
+		while (SDL_PollEvent(&eventTemp))
+		{
+			events.push_back(eventTemp);
+		}
+		eventVectorIterator = events.begin();
+	}
+
+	void ShutdownEvents()
+	{
+		events.erase(events.begin(), events.end());
+	}
+
+	bool KeyPressed(SDL_Scancode key)
+	{
+		for (eventVectorIterator = events.begin(); eventVectorIterator < events.end(); eventVectorIterator++)
+		{
+			if ((*eventVectorIterator).type == SDL_KEYDOWN && (*eventVectorIterator).key.keysym.sym == SDL_GetKeyFromScancode(key))
+			{
+				events.erase(eventVectorIterator);
+				return true;
+			}
+		}
+		return false;
+	}
 }
+
+
+/* Graphics.cpp */
+namespace Graphics
+{
+
+	void WipeScreen(Colour rgb)
+	{
+		int width;
+		int height;
+		SDL_GetWindowSize(window, &width, &height);
+		rectangle.x = 0;
+		rectangle.y = 0;
+		rectangle.w = width;
+		rectangle.h = height;
+
+		SDL_SetRenderDrawColor(renderer, SPLIT_COLOUR(rgb), 255);
+		SDL_RenderFillRectF(renderer, &rectangle);
+	}
+
+}
+
+
+/* GameLoop.cpp */
+void GameLoopInit()
+{
+	SDL_Init(SDL_INIT_EVERYTHING);
+	window = SDL_CreateWindow("TopDownShooter", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, 1280, 720, SDL_WINDOW_SHOWN);
+	renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
+	screenSurface = SDL_GetWindowSurface(window);
+}
+
+void GameLoopUpdate()
+{
+	while (true)
+	{
+		EventHandler::InitEvents();
+
+		Graphics::WipeScreen(0xFF0000);
+
+		if (EventHandler::KeyPressed(SDL_SCANCODE_ESCAPE))
+		{
+			break;
+		}
+
+		EventHandler::ShutdownEvents();
+		SDL_RenderPresent(renderer);
+	}
+}
+
+void GameLoopShutdown()
+{
+
+}
+
+/*main.cpp*/
+int main(int argc, char* argv[])
+{
+
+	GameLoopInit();
+
+	GameLoopUpdate();
+
+	GameLoopShutdown();
+
+	return 0;
+}
+

@@ -50,6 +50,13 @@ build CMakeFiles/Game.dir/Main.cpp.obj: CXX_COMPILER__Game_Debug ../Main.cpp || 
   OBJECT_DIR = CMakeFiles\Game.dir
   OBJECT_FILE_DIR = CMakeFiles\Game.dir
 
+build CMakeFiles/Game.dir/GameLoop.cpp.obj: CXX_COMPILER__Game_Debug ../GameLoop.cpp || cmake_object_order_depends_target_Game
+  DEP_FILE = CMakeFiles\Game.dir\GameLoop.cpp.obj.d
+  FLAGS = -g   -std=gnu++17
+  INCLUDES = -I../SDL2_INCLUDE_DIR -isystem D:/vcpkg/installed/x64-windows/include -isystem D:/vcpkg/installed/x64-windows/include/SDL2
+  OBJECT_DIR = CMakeFiles\Game.dir
+  OBJECT_FILE_DIR = CMakeFiles\Game.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Game
@@ -58,7 +65,7 @@ build CMakeFiles/Game.dir/Main.cpp.obj: CXX_COMPILER__Game_Debug ../Main.cpp || 
 #############################################
 # Link the executable Game.exe
 
-build Game.exe: CXX_EXECUTABLE_LINKER__Game_Debug CMakeFiles/Game.dir/Main.cpp.obj | D$:/vcpkg/installed/x64-windows/debug/lib/SDL2d.lib D$:/vcpkg/installed/x64-windows/debug/lib/manual-link/SDL2maind.lib
+build Game.exe: CXX_EXECUTABLE_LINKER__Game_Debug CMakeFiles/Game.dir/Main.cpp.obj CMakeFiles/Game.dir/GameLoop.cpp.obj | D$:/vcpkg/installed/x64-windows/debug/lib/SDL2d.lib D$:/vcpkg/installed/x64-windows/debug/lib/manual-link/SDL2maind.lib
   FLAGS = -g
   LINK_LIBRARIES = D:/vcpkg/installed/x64-windows/debug/lib/SDL2d.lib  D:/vcpkg/installed/x64-windows/debug/lib/manual-link/SDL2maind.lib  -luser32  -lgdi32  -lwinmm  -limm32  -lole32  -loleaut32  -lversion  -luuid  -ladvapi32  -lsetupapi  -lshell32  -ldinput8  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   LINK_PATH = -LC:/Users/Пользователь/Desktop/Course_project/SDL2_LIBRARY_DIR

@@ -14,6 +14,9 @@
 # EXTERNAL cache entries
 ########################
 
+//Option for enabling testing
+BUILD_TESTING:BOOL=ON
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=C:/Program Files/gcc/bin/addr2line.exe
 
@@ -241,11 +244,36 @@ Game_SOURCE_DIR:STATIC=C:/Users/Пользователь/Desktop/Course_project
 //The directory containing a CMake configuration file for SDL2.
 SDL2_DIR:PATH=SDL2_DIR-NOTFOUND
 
+//Option for allowing apple clang, even versions that we don't
+// know will work
+VCPKG_ALLOW_APPLE_CLANG:BOOL=OFF
+
+//Option for enabling benchmarking
+VCPKG_BUILD_BENCHMARKING:BOOL=OFF
+
+//Option for enabling vcpkg-fuzz support
+VCPKG_BUILD_FUZZING:BOOL=OFF
+
+//Option for turning on all warnings
+VCPKG_DEVELOPMENT_WARNINGS:BOOL=ON
+
+//Option for disabling metrics
+VCPKG_DISABLE_METRICS:BOOL=OFF
+
+//Set warnings to be errors
+VCPKG_WARNINGS_AS_ERRORS:BOOL=ON
+
 //Value Computed by CMake
 test_BINARY_DIR:STATIC=C:/Users/Пользователь/Desktop/Course_project/build
 
 //Value Computed by CMake
 test_SOURCE_DIR:STATIC=C:/Users/Пользователь/Desktop/Course_project
+
+//Value Computed by CMake
+vcpkg_BINARY_DIR:STATIC=C:/Users/Пользователь/Desktop/Course_project/build
+
+//Value Computed by CMake
+vcpkg_SOURCE_DIR:STATIC=C:/Users/Пользователь/Desktop/Course_project
 
 
 ########################

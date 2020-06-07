@@ -12,5 +12,5 @@ include_directories(SDL2_INCLUDE_DIR)
 
 find_package(SDL2 REQUIRED)
 
-add_executable(Game Main.cpp)
-target_link_libraries(Game PRIVATE SDL2::SDL2 SDL2::SDL2main)
+add_executable(Game Main.cpp Main.h GameLoop.cpp GameLoop.h)
+target_link_libraries(Game  SDL2::SDL2 SDL2::SDL2main)
