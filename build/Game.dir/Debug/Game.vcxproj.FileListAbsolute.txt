@@ -1,0 +1,2 @@
+C:\Users\Пользователь\Desktop\Course_project\build\Debug\SDL2d.dll
+C:\Users\Пользователь\Desktop\Course_project\build\Game.dir\Debug\Game.vcxproj.CopyComplete

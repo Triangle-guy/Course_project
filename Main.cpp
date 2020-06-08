@@ -1,6 +1,6 @@
 #include "Main.h"
 #include <vector>
-//#include "GameLoop.h"
+#include "GameLoop.h"
 
 #define SPLIT_COLOUR(rgb) rgb / 0x10000, (rgb / 0x100) % 0x100, rgb % 0x100
 
@@ -70,38 +70,6 @@ namespace Graphics
 
 }
 
-
-/* GameLoop.cpp */
-void GameLoopInit()
-{
-	SDL_Init(SDL_INIT_EVERYTHING);
-	window = SDL_CreateWindow("TopDownShooter", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, 1280, 720, SDL_WINDOW_SHOWN);
-	renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
-	screenSurface = SDL_GetWindowSurface(window);
-}
-
-void GameLoopUpdate()
-{
-	while (true)
-	{
-		EventHandler::InitEvents();
-
-		Graphics::WipeScreen(0xFF0000);
-
-		if (EventHandler::KeyPressed(SDL_SCANCODE_ESCAPE))
-		{
-			break;
-		}
-
-		EventHandler::ShutdownEvents();
-		SDL_RenderPresent(renderer);
-	}
-}
-
-void GameLoopShutdown()
-{
-
-}
 
 /*main.cpp*/
 int main(int argc, char* argv[])

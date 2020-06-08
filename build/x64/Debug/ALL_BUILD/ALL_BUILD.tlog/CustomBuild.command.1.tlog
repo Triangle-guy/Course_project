@@ -1,0 +1,10 @@
+^C:\USERS\ПОЛЬЗОВАТЕЛЬ\DESKTOP\COURSE_PROJECT\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Пользователь/Desktop/Course_project -BC:/Users/Пользователь/Desktop/Course_project/build --check-stamp-file C:/Users/Пользователь/Desktop/Course_project/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

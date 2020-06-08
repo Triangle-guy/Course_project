@@ -1,0 +1,10 @@
+^C:\USERS\ПОЛЬЗОВАТЕЛЬ\DESKTOP\COURSE_PROJECT\BUILD\CMAKEFILES\EF6EA2704B622EB98E86887E6C6A1F01\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Пользователь/Desktop/Course_project -BC:/Users/Пользователь/Desktop/Course_project/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Пользователь/Desktop/Course_project/build/Game.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

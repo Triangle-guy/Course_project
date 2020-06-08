@@ -1,83 +1,155 @@
 The system is: Windows - 10.0.18363 - AMD64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/bin/Hostx64/x64/cl.exe 
+Compiler:  
 Build flags: 
 Id flags:  
 
 The output was:
 0
-Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.26.28806 для x64
-(C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+Microsoft (R) Build Engine версии 16.6.0+5ff7b0c9e для .NET Framework
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
 
-CMakeCCompilerId.c
-Microsoft (R) Incremental Linker Version 14.26.28806.0
-Copyright (C) Microsoft Corporation.  All rights reserved.
+Сборка начата 08.06.2020 22:03:28.
+Проект "C:\Users\Пользователь\Desktop\Course_project\build\CMakeFiles\3.17.2\CompilerIdC\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "Debug\".
+  Создание каталога "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Создание "Debug\CompilerIdC.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+VcpkgTripletSelection:
+  Using triplet "x64-windows" from "D:\vcpkg\installed\x64-windows\"
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\bin\HostX64\x64\CL.exe /c /I"D:\vcpkg\installed\x64-windows\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\vcpkg\installed\x64-windows\debug\lib" /LIBPATH:"D:\vcpkg\installed\x64-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "D:\vcpkg\installed\x64-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\Пользователь\Desktop\Course_project\build\CMakeFiles\3.17.2\CompilerIdC\.\CompilerIdC.exe
+AppLocalFromInstalled:
+  C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "D:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\Users\Пользователь\Desktop\Course_project\build\CMakeFiles\3.17.2\CompilerIdC\.\CompilerIdC.exe" "D:\vcpkg\installed\x64-windows\debug\bin" "Debug\CompilerIdC.tlog\CompilerIdC.write.1u.tlog" "Debug\vcpkg.applocal.log"
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Файл "Debug\CompilerIdC.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Сборка проекта "C:\Users\Пользователь\Desktop\Course_project\build\CMakeFiles\3.17.2\CompilerIdC\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
 
-/out:CMakeCCompilerId.exe 
-CMakeCCompilerId.obj 
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:05.24
 
 
-Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
 
-Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
 
-The C compiler identification is MSVC, found in "C:/Users/Пользователь/Desktop/Course_project/build/CMakeFiles/3.17.2/CompilerIdC/CMakeCCompilerId.exe"
+The C compiler identification is MSVC, found in "C:/Users/Пользователь/Desktop/Course_project/build/CMakeFiles/3.17.2/CompilerIdC/CompilerIdC.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/bin/Hostx64/x64/cl.exe 
+Compiler:  
 Build flags: 
 Id flags:  
 
 The output was:
 0
-Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.26.28806 для x64
-(C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+Microsoft (R) Build Engine версии 16.6.0+5ff7b0c9e для .NET Framework
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
 
-CMakeCXXCompilerId.cpp
-Microsoft (R) Incremental Linker Version 14.26.28806.0
-Copyright (C) Microsoft Corporation.  All rights reserved.
+Сборка начата 08.06.2020 22:03:34.
+Проект "C:\Users\Пользователь\Desktop\Course_project\build\CMakeFiles\3.17.2\CompilerIdCXX\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "Debug\".
+  Создание каталога "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Создание "Debug\CompilerIdCXX.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+VcpkgTripletSelection:
+  Using triplet "x64-windows" from "D:\vcpkg\installed\x64-windows\"
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\bin\HostX64\x64\CL.exe /c /I"D:\vcpkg\installed\x64-windows\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\vcpkg\installed\x64-windows\debug\lib" /LIBPATH:"D:\vcpkg\installed\x64-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "D:\vcpkg\installed\x64-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\Пользователь\Desktop\Course_project\build\CMakeFiles\3.17.2\CompilerIdCXX\.\CompilerIdCXX.exe
+AppLocalFromInstalled:
+  C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "D:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\Users\Пользователь\Desktop\Course_project\build\CMakeFiles\3.17.2\CompilerIdCXX\.\CompilerIdCXX.exe" "D:\vcpkg\installed\x64-windows\debug\bin" "Debug\CompilerIdCXX.tlog\CompilerIdCXX.write.1u.tlog" "Debug\vcpkg.applocal.log"
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Файл "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Сборка проекта "C:\Users\Пользователь\Desktop\Course_project\build\CMakeFiles\3.17.2\CompilerIdCXX\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
 
-/out:CMakeCXXCompilerId.exe 
-CMakeCXXCompilerId.obj 
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:01.75
 
 
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
 
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
 
-The CXX compiler identification is MSVC, found in "C:/Users/Пользователь/Desktop/Course_project/build/CMakeFiles/3.17.2/CompilerIdCXX/CMakeCXXCompilerId.exe"
+The CXX compiler identification is MSVC, found in "C:/Users/Пользователь/Desktop/Course_project/build/CMakeFiles/3.17.2/CompilerIdCXX/CompilerIdCXX.exe"
 
 Determining if the C compiler works passed with the following output:
 Change Dir: C:/Users/Пользователь/Desktop/Course_project/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/PROGRA~1/CMake/bin/ninja.exe cmTC_488cd && [1/2] Building C object CMakeFiles\cmTC_488cd.dir\testCCompiler.c.obj
-[2/2] Linking C executable cmTC_488cd.exe
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_592b7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine версии 16.6.0+5ff7b0c9e для .NET Framework
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.26.28806 для x64
+  testCCompiler.c
+  (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+  cl /c /I"D:\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_592b7.dir\Debug\\" /Fd"cmTC_592b7.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\Пользователь\Desktop\Course_project\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  cmTC_592b7.vcxproj -> C:\Users\Пользователь\Desktop\Course_project\build\CMakeFiles\CMakeTmp\Debug\cmTC_592b7.exe
 
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: C:/Users/Пользователь/Desktop/Course_project/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/PROGRA~1/CMake/bin/ninja.exe cmTC_1dae2 && [1/2] Building C object CMakeFiles\cmTC_1dae2.dir\CMakeCCompilerABI.c.obj
-Примечание: включение файла:  C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCompilerABI.h
-[2/2] Linking C executable cmTC_1dae2.exe
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_9f5f6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine версии 16.6.0+5ff7b0c9e для .NET Framework
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.26.28806 для x64
+  CMakeCCompilerABI.c
+  (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+  cl /c /I"D:\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9f5f6.dir\Debug\\" /Fd"cmTC_9f5f6.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCCompilerABI.c"
+  cmTC_9f5f6.vcxproj -> C:\Users\Пользователь\Desktop\Course_project\build\CMakeFiles\CMakeTmp\Debug\cmTC_9f5f6.exe
 
 
 
 Determining if the CXX compiler works passed with the following output:
 Change Dir: C:/Users/Пользователь/Desktop/Course_project/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/PROGRA~1/CMake/bin/ninja.exe cmTC_c1398 && [1/2] Building CXX object CMakeFiles\cmTC_c1398.dir\testCXXCompiler.cxx.obj
-[2/2] Linking CXX executable cmTC_c1398.exe
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_26077.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine версии 16.6.0+5ff7b0c9e для .NET Framework
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.26.28806 для x64
+  testCXXCompiler.cxx
+  (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+  cl /c /I"D:\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_26077.dir\Debug\\" /Fd"cmTC_26077.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "C:\Users\Пользователь\Desktop\Course_project\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  cmTC_26077.vcxproj -> C:\Users\Пользователь\Desktop\Course_project\build\CMakeFiles\CMakeTmp\Debug\cmTC_26077.exe
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: C:/Users/Пользователь/Desktop/Course_project/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/PROGRA~1/CMake/bin/ninja.exe cmTC_95896 && [1/2] Building CXX object CMakeFiles\cmTC_95896.dir\CMakeCXXCompilerABI.cpp.obj
-Примечание: включение файла:  C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCompilerABI.h
-[2/2] Linking CXX executable cmTC_95896.exe
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_24bbb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine версии 16.6.0+5ff7b0c9e для .NET Framework
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.26.28806 для x64
+  CMakeCXXCompilerABI.cpp
+  (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+  cl /c /I"D:\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_24bbb.dir\Debug\\" /Fd"cmTC_24bbb.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_24bbb.vcxproj -> C:\Users\Пользователь\Desktop\Course_project\build\CMakeFiles\CMakeTmp\Debug\cmTC_24bbb.exe
 
 
 

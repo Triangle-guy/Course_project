@@ -1,13 +1,13 @@
 [
 {
   "directory": "C:/Users/Пользователь/Desktop/Course_project/build",
-  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1426~1.288\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I..\\SDL2_INCLUDE_DIR -ID:\\vcpkg\\installed\\x64-windows\\include -ID:\\vcpkg\\installed\\x64-windows\\include\\SDL2  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   -std:c++17 /FoCMakeFiles\\Game.dir\\Main.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Пользователь\\Desktop\\Course_project\\Main.cpp",
+  "command": "c:\\PROGRA~1\\gcc\\bin\\G__~1.EXE   -I../SDL2_INCLUDE_DIR -isystem D:/vcpkg/installed/x64-windows/include -isystem D:/vcpkg/installed/x64-windows/include/SDL2  -g   -std=gnu++17 -o CMakeFiles\\Game.dir\\Main.cpp.obj -c C:\\Users\\Пользователь\\Desktop\\Course_project\\Main.cpp",
   "file": "C:/Users/Пользователь/Desktop/Course_project/Main.cpp"
 },
 
 {
   "directory": "C:/Users/Пользователь/Desktop/Course_project/build",
-  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1426~1.288\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I..\\SDL2_INCLUDE_DIR -ID:\\vcpkg\\installed\\x64-windows\\include -ID:\\vcpkg\\installed\\x64-windows\\include\\SDL2  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   -std:c++17 /FoCMakeFiles\\Game.dir\\GameLoop.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Пользователь\\Desktop\\Course_project\\GameLoop.cpp",
+  "command": "c:\\PROGRA~1\\gcc\\bin\\G__~1.EXE   -I../SDL2_INCLUDE_DIR -isystem D:/vcpkg/installed/x64-windows/include -isystem D:/vcpkg/installed/x64-windows/include/SDL2  -g   -std=gnu++17 -o CMakeFiles\\Game.dir\\GameLoop.cpp.obj -c C:\\Users\\Пользователь\\Desktop\\Course_project\\GameLoop.cpp",
   "file": "C:/Users/Пользователь/Desktop/Course_project/GameLoop.cpp"
 }
 ]

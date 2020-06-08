@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Game.exe"
+			"path" : "Release/Game.exe"
 		},
 		{
-			"path" : "Game.pdb"
+			"path" : "Release/Game.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -59,7 +59,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1  "
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG  "
 				},
 				{
 					"fragment" : "-std:c++17"
@@ -90,17 +90,23 @@
 			]
 		}
 	],
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
 	"id" : "Game::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1",
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+				"fragment" : "/machine:x64 /INCREMENTAL:NO /subsystem:console",
 				"role" : "flags"
 			},
 			{
@@ -110,12 +116,12 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "D:\\vcpkg\\installed\\x64-windows\\debug\\lib\\SDL2d.lib",
+				"fragment" : "D:\\vcpkg\\installed\\x64-windows\\lib\\SDL2.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "D:\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link\\SDL2maind.lib",
+				"fragment" : "D:\\vcpkg\\installed\\x64-windows\\lib\\manual-link\\SDL2main.lib",
 				"role" : "libraries"
 			},
 			{

@@ -3,8 +3,9 @@
 	{
 		"generator" : 
 		{
-			"multiConfig" : false,
-			"name" : "Ninja"
+			"multiConfig" : true,
+			"name" : "Visual Studio 16 2019",
+			"platform" : "x64"
 		},
 		"paths" : 
 		{
@@ -26,7 +27,7 @@
 	"objects" : 
 	[
 		{
-			"jsonFile" : "codemodel-v2-9f3b93b99eb0240072af.json",
+			"jsonFile" : "codemodel-v2-fbcc649afa8c43abe1d0.json",
 			"kind" : "codemodel",
 			"version" : 
 			{
@@ -35,7 +36,7 @@
 			}
 		},
 		{
-			"jsonFile" : "cache-v2-4881a19cae8f4f65346d.json",
+			"jsonFile" : "cache-v2-fd59c9d1dea8d4c3f2e1.json",
 			"kind" : "cache",
 			"version" : 
 			{
@@ -64,7 +65,7 @@
 				"responses" : 
 				[
 					{
-						"jsonFile" : "cache-v2-4881a19cae8f4f65346d.json",
+						"jsonFile" : "cache-v2-fd59c9d1dea8d4c3f2e1.json",
 						"kind" : "cache",
 						"version" : 
 						{
@@ -73,7 +74,7 @@
 						}
 					},
 					{
-						"jsonFile" : "codemodel-v2-9f3b93b99eb0240072af.json",
+						"jsonFile" : "codemodel-v2-fbcc649afa8c43abe1d0.json",
 						"kind" : "codemodel",
 						"version" : 
 						{
