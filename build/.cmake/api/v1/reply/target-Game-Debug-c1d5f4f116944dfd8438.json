@@ -59,10 +59,10 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g  "
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1  "
 				},
 				{
-					"fragment" : "-std=gnu++17"
+					"fragment" : "-std:c++17"
 				}
 			],
 			"includes" : 
@@ -96,16 +96,16 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-g",
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "",
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
 				"role" : "flags"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-LC:\\Users\\Пользователь\\Desktop\\Course_project\\SDL2_LIBRARY_DIR",
+				"fragment" : "-LIBPATH:C:\\Users\\Пользователь\\Desktop\\Course_project\\SDL2_LIBRARY_DIR",
 				"role" : "libraryPath"
 			},
 			{
@@ -119,55 +119,55 @@
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "-luser32",
+				"fragment" : "user32.lib",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "-lgdi32",
+				"fragment" : "gdi32.lib",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "-lwinmm",
+				"fragment" : "winmm.lib",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "-limm32",
+				"fragment" : "imm32.lib",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "-lole32",
+				"fragment" : "ole32.lib",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "-loleaut32",
+				"fragment" : "oleaut32.lib",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "-lversion",
+				"fragment" : "version.lib",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "-luuid",
+				"fragment" : "uuid.lib",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "-ladvapi32",
+				"fragment" : "advapi32.lib",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "-lsetupapi",
+				"fragment" : "setupapi.lib",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "-lshell32",
+				"fragment" : "shell32.lib",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "-ldinput8",
+				"fragment" : "dinput8.lib",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
 				"role" : "libraries"
 			}
 		],
