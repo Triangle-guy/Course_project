@@ -54,6 +54,7 @@ void GameLoopUpdate()
 
 	while (true)
 	{
+		Timer::FPS::GetTimeAtFrameStart();
 		sprintf_s(buf, "Score: %d  Higschore: %d", score, highscore);
 		SDL_SetWindowTitle(window, buf);
 
@@ -92,7 +93,6 @@ void GameLoopUpdate()
 			Enemy enemy(xtemp, ytemp, &player);
 			Enemy::enemies.push_back(enemy);
 		}
-		Timer::FPS::GetTimeAtFrameStart();
 
 		EventHandler::InitEvents();
 
