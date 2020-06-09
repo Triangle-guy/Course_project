@@ -7,7 +7,7 @@
 *****************************************************************************/
 
 #pragma once
-#include <SDL2/SDL.h>
+#include <SDL.h>
 
 #define ACTOR_SIZE 50.0f
 #define BULLET_RADIUS 3.0f

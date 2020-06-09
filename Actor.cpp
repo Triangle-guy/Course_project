@@ -11,7 +11,7 @@
 
 
 /*!*************************************************************************
-  Actor(ActorType type, float x, float y)
+  Actor(ActorType type, float x, float y
 
   \brief
     Конструктор для класса Actor
@@ -55,7 +55,7 @@ Actor::Actor(ActorType type, float x, float y)
 
 
 /*!*************************************************************************
-  Actor(ActorType type, float x, float y)
+  Actor(ActorType type, float x, float y
 
   \brief
     Конструктор по умолчанию для класса Actor

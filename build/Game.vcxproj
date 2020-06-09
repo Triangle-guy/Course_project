@@ -320,8 +320,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Пользователь\Desktop\Course_project\Main.cpp" />
-    <ClInclude Include="C:\Users\Пользователь\Desktop\Course_project\Main.h" />
+    <ClCompile Include="C:\Users\Пользователь\Desktop\Course_project\main.cpp" />
+    <ClInclude Include="C:\Users\Пользователь\Desktop\Course_project\main.h" />
     <ClCompile Include="C:\Users\Пользователь\Desktop\Course_project\GameLoop.cpp" />
     <ClInclude Include="C:\Users\Пользователь\Desktop\Course_project\GameLoop.h" />
     <ClCompile Include="C:\Users\Пользователь\Desktop\Course_project\Actor.cpp" />

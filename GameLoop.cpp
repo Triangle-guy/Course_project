@@ -1,8 +1,8 @@
 ﻿/****************************************************************************
- *  Имя файла: GameLoop.cpp
- *  Описание:
+ *  \file GameLoop.cpp
+ *  \brief
  *      - Имплементация функций Init, Update и Shutdown для игрового цикла
- *  Автор: Рощин Константин
+ *  \author Рощин Константин
 *****************************************************************************/
 
 #include "main.h"
@@ -19,6 +19,7 @@
 #include <cstdlib>
 
 
+//!Генерирует случайное число от rangeMin до rangeMax
 static int RandomRange(int rangeMin, int rangeMax);
 
 bool reset = true;
@@ -93,6 +94,7 @@ void GameLoopUpdate()
 			Enemy enemy(xtemp, ytemp, &player);
 			Enemy::enemies.push_back(enemy);
 		}
+		
 
 		EventHandler::InitEvents();
 

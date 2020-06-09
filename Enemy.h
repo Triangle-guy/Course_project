@@ -1,9 +1,9 @@
 ﻿/****************************************************************************
- *  Имя файла: Enemy.h
- *  Описание:
+ *  \file Enemy.h
+ *  \brief
  *      - Интерфейс класса Enemy, который отвечает за поведение,
  *        обновление и прорисовку врагов
- *  Автор: Рощин Константин
+ *  \author Рощин Константин
 *****************************************************************************/
 #pragma once
 
@@ -13,27 +13,39 @@
 
 typedef class Player Player;
 
-enum class EnemyStates
+enum class EnemyStates //!< Энумерация возможных стадий врага (НЕ ИСПОЛЬЗУЕТСЯ)
 {
   Invalid = -1,
   Alive,
   Dead
 };
 
-class Enemy : public Actor
+
+class Enemy : public Actor //!< Класс Enemy
 {
 public:
+  //!Вектор, хранящий в себе всех врагов
   static std::vector<Enemy> enemies;
+
+  //!Конструктор
   Enemy(float x, float y, Player* player);
+
+  //!Проверяет колизию со всеми пулями
   bool CheckCollisionWithBullets();
+
+  //!Прорисовка врага
   void Draw();
+
+  //! Обновление врага
   void Update();
+
+  //! Функция, которая перехватывает Update при смерти
   void OnDeath();
 
 private:
-  float speed_;
-  EnemyStates currState_;
-  EquilateralTriangle body_;
-  Player* player_;
+  float speed_;              //!< Скорость
+  EnemyStates currState_;    //!< Статус врага (НЕ ИСПОЛЬЗУЕТСЯ)
+  EquilateralTriangle body_; //!< "Тело", которое будет рисоваться
+  Player* player_;           //!< Указатель на игрока, чтобы упростить навигацию и проверку колизии
 
 };

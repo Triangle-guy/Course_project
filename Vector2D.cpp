@@ -1,20 +1,14 @@
 ﻿/****************************************************************************
- *  \file Vector2D.cpp
- *  \brief
+ *  Имя файла: Vector2D.cpp
+ *  Описание:
  *      - Имплементация класса для простого двухмерного вектора
- *  \author Рощин Константин
+ *  Автор: Рощин Константин
 *****************************************************************************/
 #include "Vector2D.h"
 #define _USE_MATH_DEFINES 
 #include "cmath"
 
-/*!*************************************************************************
-  Vector2D()
 
-  \brief
-    Конструктор для класса Vector2D
-
-***************************************************************************/
 Vector2D::Vector2D()
 	: x(0)
 	, y(0)
@@ -22,17 +16,6 @@ Vector2D::Vector2D()
 
 }
 
-/*!*************************************************************************
-  Vector2D(float xCoor, float yCoor)
-
-  \brief
-    Конструктор для класса Vector2D
-  \param xCoor
-    X-координата вектора
-  \param yCoor
-    Y-координата вектора
-
-***************************************************************************/
 Vector2D::Vector2D(float xCoor, float yCoor)
 	: x(xCoor)
 	, y(yCoor)
@@ -40,15 +23,6 @@ Vector2D::Vector2D(float xCoor, float yCoor)
 
 }
 
-/*!*************************************************************************
-  Vector2D(const Vector2D& other)
-
-  \brief
-    Конструктор для класса Vector2D
-  \param other
-    Копируемый вектор
-
-***************************************************************************/
 Vector2D::Vector2D(const Vector2D& other)
 	: x(other.x)
 	, y(other.y)
@@ -56,28 +30,11 @@ Vector2D::Vector2D(const Vector2D& other)
 
 }
 
-/*!*************************************************************************
-  Vector2D(float angle, AngleUnits units)
-
-  \brief
-    Конструктор для класса Vector2D
-  \param angle
-    Угол наклона
-  \param units
-    Единицы измерения угла
-***************************************************************************/
 Vector2D::Vector2D(float angle, AngleUnits units)
 {
 	CalculateFromAngle(angle, units);
 }
 
-/*!*************************************************************************
-  ~Vector2D()
-
-  \brief
-    Деструктор для вектора
-
-***************************************************************************/
 Vector2D::~Vector2D()
 {
 
@@ -85,17 +42,6 @@ Vector2D::~Vector2D()
 
 //Math
 
-/*!*************************************************************************
-  Set(float xCoor, float yCoor)
-
-  \brief
-    Сеттер для координат вектора
-  \param xCoor
-    X-координата вектора
-  \param yCoor
-    Y-координата вектора
-
-***************************************************************************/
 Vector2D& Vector2D::Set(float xCoor, float yCoor)
 {
 	x = xCoor;
@@ -103,13 +49,6 @@ Vector2D& Vector2D::Set(float xCoor, float yCoor)
 	return *this;
 }
 
-/*!*************************************************************************
-  Invert()
-
-  \brief
-    Получение инвертированнного вектора
-
-***************************************************************************/
 Vector2D& Vector2D::Invert()
 {
 	x = -x;
@@ -117,13 +56,6 @@ Vector2D& Vector2D::Invert()
 	return *this;
 }
 
-/*!*************************************************************************
-  GetNormal() const
-
-  \brief
-    Получение единичного вектора того же направления
-
-***************************************************************************/
 Vector2D Vector2D::GetNormal() const
 {
 	Vector2D result;
@@ -133,44 +65,22 @@ Vector2D Vector2D::GetNormal() const
 	return result;
 }
 
-/*!*************************************************************************
-  Normalize()
-
-  \brief
-    Превращение вектора в единичный того же направления
-
-***************************************************************************/
 Vector2D& Vector2D::Normalize()
 {
 	*this = GetNormal();
 	return *this;
 }
 
-/*!*************************************************************************
-  operator-()
-
-  \brief
-    Инвертирование вектора
-
-***************************************************************************/
 Vector2D& Vector2D::operator-()
 {
 	return Invert();
 }
 
-/*!*************************************************************************
-  operator-()
-
-  \brief
-    Инвертирование вектора
-
-***************************************************************************/
 Vector2D Vector2D::operator-(const Vector2D& other) const
 {
 	Vector2D result(x - other.x, y - other.y);
 	return result;
 }
-
 
 Vector2D& Vector2D::operator-=(const Vector2D& other)
 {
@@ -179,13 +89,11 @@ Vector2D& Vector2D::operator-=(const Vector2D& other)
 	return *this;
 }
 
-
 Vector2D Vector2D::operator+(const Vector2D& other) const
 {
 	Vector2D result(x + other.x, y + other.y);
 	return result;
 }
-
 
 Vector2D& Vector2D::operator+=(const Vector2D& other)
 {
@@ -193,7 +101,6 @@ Vector2D& Vector2D::operator+=(const Vector2D& other)
 	y += other.y;
 	return *this;
 }
-
 
 Vector2D& Vector2D::operator*()
 {
@@ -206,7 +113,6 @@ float Vector2D::operator*(const Vector2D& other) const
 	return x + y;
 }
 
-
 Vector2D Vector2D::operator*(const float& scale) const
 {
 	Vector2D result(*this);
@@ -215,14 +121,12 @@ Vector2D Vector2D::operator*(const float& scale) const
 	return result;
 }
 
-
 Vector2D& Vector2D::operator*=(const float& scale)
 {
 	x *= scale;
 	y *= scale;
 	return *this;
 }
-
 
 float Vector2D::GetLength() const
 {
@@ -234,14 +138,12 @@ float Vector2D::GetLengthSquared() const
 	return x * x + y * y;
 }
 
-
 float Vector2D::DistanceTo(const Vector2D& other) const
 {
 	Vector2D result(*this);
 	result = other - result;
 	return result.GetLength();
 }
-
 
 Vector2D& Vector2D::CalculateFromAngle(float angle, AngleUnits units)
 {
@@ -253,7 +155,6 @@ Vector2D& Vector2D::CalculateFromAngle(float angle, AngleUnits units)
 	y = sinf(angle);
 	return *this;
 }
-
 
 Vector2D& Vector2D::Rotate(const Vector2D& pivot, float angle, AngleUnits units)
 {
@@ -275,7 +176,6 @@ Vector2D& Vector2D::Rotate(const Vector2D& pivot, float angle, AngleUnits units)
 
 }
 
-
 float Vector2D::ToAngle(AngleUnits units)
 {
 	if (units == AngleUnits::Degrees)
@@ -285,7 +185,6 @@ float Vector2D::ToAngle(AngleUnits units)
 	return atan2f(y, x);
 }
 
-
 Vector2D Vector2D::Midpoint(const Vector2D& other)
 {
 	Vector2D newVec;
@@ -293,7 +192,6 @@ Vector2D Vector2D::Midpoint(const Vector2D& other)
 	newVec.y = (y + other.y) / 2;
 	return newVec;
 }
-
 
 Vector2D* Line::CalculateIntesectionWith(Line& other)
 {
