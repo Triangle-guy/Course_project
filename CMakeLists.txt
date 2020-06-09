@@ -12,5 +12,5 @@ include_directories(SDL2_INCLUDE_DIR)
 
 find_package(SDL2 REQUIRED)
 
-add_executable(Game Main.cpp Main.h GameLoop.cpp GameLoop.h)
+add_executable(Game Main.cpp Main.h GameLoop.cpp GameLoop.h Actor.cpp Actor.h Bullet.cpp Bullet.h Enemy.cpp Enemy.h EventHandler.cpp EventHandler.h Graphics.cpp Graphics.h Player.cpp Player.h Shapes.cpp Shapes.h Timer.cpp Timer.h Vector2D.cpp Vector2D.h)
 target_link_libraries(Game  SDL2::SDL2 SDL2::SDL2main)
